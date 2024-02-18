@@ -22,12 +22,19 @@ export const SearchInput: FC<SearchInputTypesProps> = () => {
     push(`/items?search=${currentQuery}`);
   };
 
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Enter') {
+      clickSearch();
+    }
+  };
+
   return (
     <div className="search-input">
       <input
         className="input"
         value={currentQuery}
         onChange={(e) => changeInputHandler(e)}
+        onKeyDown={(e) => handleKeyDown(e)}
       ></input>
       <button className="search-action" onClick={() => clickSearch()}>
         <FontAwesomeIcon icon={faSearch} size="1x"></FontAwesomeIcon>
