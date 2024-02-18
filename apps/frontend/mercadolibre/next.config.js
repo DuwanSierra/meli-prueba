@@ -12,6 +12,10 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
+  },
   images: {
     //TODO: No me funciono con remote patterns
     domains: ['http2.mlstatic.com'],
