@@ -1,0 +1,71 @@
+{
+  "name": "mercadolibre-api",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/backend/mercadolibre-api/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/apps/backend/mercadolibre-api",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "apps/backend/mercadolibre-api/src/main.ts",
+        "tsConfig": "apps/backend/mercadolibre-api/tsconfig.app.json",
+        "assets": ["apps/backend/mercadolibre-api/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "mercadolibre-api:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "mercadolibre-api:build:development"
+        },
+        "production": {
+          "buildTarget": "mercadolibre-api:build:production"
+        }
+      }
+    },
+    "dev": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "mercadolibre-api:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "mercadolibre-api:build:development"
+        },
+        "production": {
+          "buildTarget": "mercadolibre-api:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}

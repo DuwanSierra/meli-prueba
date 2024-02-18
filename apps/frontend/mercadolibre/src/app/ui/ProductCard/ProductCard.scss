@@ -1,0 +1,42 @@
+.product-card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 15px;
+  gap: 10px;
+
+  .product-image {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      border-radius: 5px;
+    }
+  }
+
+  .product-description {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon {
+      color: #00a650;
+    }
+  }
+
+  .product-city {
+    flex: 0 0 15%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.55);
+  }
+}
