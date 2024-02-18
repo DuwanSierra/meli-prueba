@@ -22,7 +22,7 @@ export async function generateMetadata(
   };
 }
 
-export const getData = async (query: string) => {
+const getData = async (query: string) => {
   const data = new URLSearchParams();
   data.append('q', query);
   const repo = await fetch(
@@ -31,7 +31,7 @@ export const getData = async (query: string) => {
   return (await repo.json()) as ItemsPageProp;
 };
 
-export const Items: FC<Props> = async ({ searchParams }) => {
+const Items: FC<Props> = async ({ searchParams }) => {
   const props = await getData(searchParams.search as string);
 
   return (

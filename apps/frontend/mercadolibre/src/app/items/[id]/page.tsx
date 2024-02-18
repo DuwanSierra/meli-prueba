@@ -30,7 +30,7 @@ export async function generateMetadata(
   };
 }
 
-export const getData = async (id: string) => {
+const getData = async (id: string) => {
   try {
     const repo = await fetch(
       `${process.env.BASE_PRODUCT_ENDPOINT}/${id}` || ''
@@ -41,7 +41,7 @@ export const getData = async (id: string) => {
   }
 };
 
-export const ItemDetails: FC<Props> = async ({ params }) => {
+const ItemDetails: FC<Props> = async ({ params }) => {
   const props = await getData(params.id as string);
   console.log(props);
   return (
