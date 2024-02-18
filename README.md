@@ -14,7 +14,7 @@ This project was generated using [Nx](https://nx.dev).
 
 Run `nx run mercadolibre:dev` for a frontend dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
-Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
+Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http://localhost:3001/api/items?q=iphone. The app will automatically reload if you change any of the source files.
 
 ## Preview
 
