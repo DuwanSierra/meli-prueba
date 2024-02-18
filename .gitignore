@@ -5,6 +5,6 @@ build
 .nx/cache
 
 # Next.js
-#.next
+.next
 
 tmp
