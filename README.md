@@ -15,3 +15,4 @@ Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http:
 ##Preview
 
 This is the happy path preview
+[screen-capture.webm](https://github.com/DuwanSierra/meli-prueba/assets/43664204/fbe328a9-3dcf-4646-93b3-811e69532957)
