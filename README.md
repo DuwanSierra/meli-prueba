@@ -12,7 +12,8 @@ Run `nx run mercadolibre:dev` for a frontend dev server. Navigate to http://loca
 
 Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
-##Preview
+## Preview
 
 This is the happy path preview
-[screen-capture.webm](https://github.com/DuwanSierra/meli-prueba/assets/43664204/fbe328a9-3dcf-4646-93b3-811e69532957)
+
+![screen-capture (1)](https://github.com/DuwanSierra/meli-prueba/assets/43664204/6da1d2c4-84b4-4f5e-b86a-147e5f2ff992)
