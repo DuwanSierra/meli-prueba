@@ -4,6 +4,10 @@ This project was generated using [Nx](https://nx.dev).
 
 <p><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="250"></p>
 
+## Demo
+
+[Demo Online](http://52.179.85.52:3000)
+
 ## Quick Start & Documentation
 
 ## Development server
