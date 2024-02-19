@@ -65,6 +65,12 @@
           "buildTarget": "mercadolibre-api:build:production"
         }
       }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "options": {
+        "jestConfig": "apps/backend/mercadolibre-api/jest.config.ts"
+      }
     }
   },
   "tags": []

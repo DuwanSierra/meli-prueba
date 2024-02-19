@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default {
+  clearMocks: true,
   displayName: 'mercadolibre-api',
   preset: '../../../jest.preset.js',
   testEnvironment: 'node',
