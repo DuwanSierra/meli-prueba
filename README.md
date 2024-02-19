@@ -15,6 +15,12 @@ This project was generated using [Nx](https://nx.dev).
 
 Run `nx run mercadolibre:dev` for a frontend dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
-Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http://localhost:3001/api/items?q=iphone. The app will automatically reload if you change any of the source files.
+Run `nx run mercadolibre-api:serve` for a backend dev server. Navigate to http://localhost:3001/api/items?q=iphone.
+
+## Unit Testing
+
+Run `nx run mercadolibre-api:test` for a backend init unit testing.
+![image](https://github.com/DuwanSierra/meli-prueba/assets/43664204/82cf8722-0b10-4ab2-98d2-1df2db6953d5)
+
 
 
