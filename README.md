@@ -7,6 +7,7 @@ This project was generated using [Nx](https://nx.dev).
 ## Demo
 
 [Demo Online](http://52.179.85.52:3000)
+![screen-capture (1)](https://github.com/DuwanSierra/meli-prueba/assets/43664204/6da1d2c4-84b4-4f5e-b86a-147e5f2ff992)
 
 ## Quick Start & Documentation
 
@@ -14,10 +15,6 @@ This project was generated using [Nx](https://nx.dev).
 
 Run `nx run mercadolibre:dev` for a frontend dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
-Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
+Run `nx run mercadolibre-api:serve` for a frontend dev server. Navigate to http://localhost:3001/api/items?q=iphone. The app will automatically reload if you change any of the source files.
 
-## Preview
 
-This is the happy path preview
-
-![screen-capture (1)](https://github.com/DuwanSierra/meli-prueba/assets/43664204/6da1d2c4-84b4-4f5e-b86a-147e5f2ff992)
